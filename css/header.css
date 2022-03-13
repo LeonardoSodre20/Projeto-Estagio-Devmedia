@@ -1,0 +1,130 @@
+.header {
+  width: 100%;
+}
+
+.container-top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.container-logo-and-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 2em;
+  color: red;
+}
+
+.container-form {
+  height: 600px;
+  width: 100%;
+  background-image: url("/imagens/london.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-topics-informations {
+  display: flex;
+}
+
+.container-topics-informations .topics {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  transition: 0.5s;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.container-topics-informations .topics:hover {
+  background-color: red;
+}
+
+.container-inputs {
+  height: 250px;
+  background-color: white;
+  width: calc(250px * 3);
+  display: flex;
+  flex-direction: column;
+}
+
+.container-inputs h1 {
+  color: rgb(116, 116, 116);
+  font-size: 1.8em;
+  margin-left: 20px;
+}
+
+.container-inputs-informations {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.input-to,
+.input-from {
+  height: 40px;
+  text-indent: 20px;
+  outline: none;
+  border: 2px solid darkgray;
+}
+
+.label-inputs {
+  font-weight: bold;
+  color: rgb(116, 116, 116);
+}
+
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.input-placeholder::placeholder{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: darkgrey;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.btn-find-and-search-dates {
+  height: 50px;
+  width: 250px;
+  background-color: rgb(97, 97, 97);
+  color: white;
+  font-size: 1.3em;
+  padding: 10px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-find-and-search-dates:hover{
+    background-color: rgb(77, 77, 77);
+}
